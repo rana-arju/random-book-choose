@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "name": "Guide To Investing",
+    "img": "1.jpg",
+    "price": "540"
+    
+  },
+  {
+    "id": 2,
+    "name": "Give And Take",
+    "img": "2.jpg",
+    "price": "900"
+
+  },
+  {
+    "id": 3,
+    "name": "Rich Dead Poor Dead",
+    "img": "3.jpg",
+    "price": "900"
+
+  },
+  {
+    "id": 4,
+    "name": "Zero To One",
+    "img": "4.jpg",
+    "price": "1000"
+
+  },
+  {
+    "id": 5,
+    "name": "Success Habits",
+    "img": "5.jpg",
+    "price": "1720"
+  },
+  {
+    "id": 6,
+    "name": "Smart in the new rich",
+    "img": "6.jpg",
+    "price": "1900"
+  },
+  {
+    "id": 7,
+    "name": "School That learn",
+    "img": "7.jpg",
+    "price": "5430"
+  },
+  {
+    "id": 8,
+    "name": "Screate of milinear..",
+    "img": "8.jpg",
+    "price": "570"
+  },
+  {
+    "id": 9,
+    "name": "How to sell you",
+    "img": "9.jpg",
+    "price": "970"
+
+  },
+  {
+    "id": 10,
+    "name": "Resisting Happiness",
+    "img": "10.jpg",
+    "price": "800"
+  },
+  {
+    "id": 11,
+    "name": "Think and Grow Rich",
+    "img": "11.jpg",
+    "price": "750"
+  },
+  {
+    "id": 12,
+    "name": "The mindset 7",
+    "img": "12.jpg",
+    "price": "880"
+  }
+
+]
