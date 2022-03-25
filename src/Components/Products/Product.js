@@ -1,8 +1,9 @@
 import React from 'react';
 import "./Product.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { BsFillCartFill } from 'react-icons/bs';
 
-import { Card } from 'react-bootstrap';
+import { Card, ButtonGroup, Button} from 'react-bootstrap';
 
 const Product = (props) => {
     const {name, img, price} = props.data;
@@ -17,8 +18,13 @@ const Product = (props) => {
             </Card.Text>
             </Card.Body>
             <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
-            </Card.Footer>
+            <ButtonGroup aria-label="Basic example">
+                <Button variant="secondary">Add to Cart                 <Button variant="secondary"><BsFillCartFill />
+                </Button>
+                </Button>
+               
+            </ButtonGroup> 
+        </Card.Footer>
         </Card>
     </div>
     );
