@@ -2,3 +2,12 @@
   text-align: center;
   margin: 20px 0;
 }
+.faq{
+  margin-top: 50px;
+}
+.faq h2{
+  font-size: 25px;
+}
+.faq p{
+  font-size: 18px;
+}

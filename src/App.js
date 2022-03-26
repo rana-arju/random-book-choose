@@ -1,4 +1,5 @@
 import './App.css';
+import Faq from './Components/Faq/Faq';
 import Products from './Components/Products/Products';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
           <p>You Can Buy Any Book From Here!</p>
       </div>
       <Products />
+      <Faq />
     </div>
   );
 }
