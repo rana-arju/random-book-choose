@@ -1,9 +1,12 @@
 import React from 'react';
 import "./ProductView.css";
-const ProductView = () => {
+const ProductView = (props) => {
+    // const {name} = props.cartBtn;
     return (
         <div className='right-card'>
-            <h3>Hello....</h3>
+            <div className="product-img">
+            </div>
+            <h3>Hi</h3>
         </div>
     );
 };
