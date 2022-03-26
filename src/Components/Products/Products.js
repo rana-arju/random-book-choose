@@ -29,8 +29,7 @@ const Products = () => {
     const clearCart = () => {
       setCart([]);
      
-    }
-    console.log(clearCart);
+    }    
     return (
         <div  className='shop-container'>
    
@@ -49,9 +48,9 @@ const Products = () => {
              <div className='right-side'>
                 <ProductView
                 product ={cart}
-                key={cart.id}
                 randomNumber = {randomNumber}
                  clearCart = {clearCart}
+                 key = {""}
 
                 />
             </div>
