@@ -6,7 +6,6 @@ import { Card, ButtonGroup, Button} from 'react-bootstrap';
 
 const Product = ({cartBtnHandle, data}) => {
     const {name, img, price} = data;
-   
     return (
     <div>
         <Card>
@@ -14,7 +13,7 @@ const Product = ({cartBtnHandle, data}) => {
             <Card.Body>
             <Card.Title>{name}</Card.Title>
             <Card.Text>
-                {price}
+                Price: $ {price}
             </Card.Text>
             </Card.Body>
             <Card.Footer>
