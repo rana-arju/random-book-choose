@@ -3,7 +3,6 @@ import "./Product.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BsFillCartFill } from 'react-icons/bs';
 import { Card, ButtonGroup, Button} from 'react-bootstrap';
-
 const Product = ({cartBtnHandle, data}) => {
     const {name, img, price} = data;
     return (

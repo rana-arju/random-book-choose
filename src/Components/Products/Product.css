@@ -19,3 +19,11 @@
     padding: 20px 0 0 10px;
 
 }
+
+@media screen and (max-width: 500px) {
+    .shop-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-start: -1;
+    }
+}
