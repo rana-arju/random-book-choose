@@ -3,7 +3,6 @@ import Product from './Product';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container, CardGroup} from 'react-bootstrap';
 import ProductView from '../ProductView/ProductView';
-import Btn from '../Button/Btn';
 const Products = () => {
     const [products, setProducts] = useState([]);
     const [cart, setCart] = useState([]);
@@ -27,8 +26,14 @@ const Products = () => {
                 setCart([randomItem])
             }
         }
+    const clearCart = () => {
+      setCart([]);
+     
+    }
+    console.log(clearCart);
     return (
         <div  className='shop-container'>
+   
             <Container>
             <CardGroup >
                 {
@@ -41,14 +46,15 @@ const Products = () => {
 
             </CardGroup>
             </Container>
-                <div className='right-side'>
-                    <ProductView
-                    product ={cart}
-                    key = {cart.id}
-                    randomNumber = {randomNumber}
+             <div className='right-side'>
+                <ProductView
+                product ={cart}
+                key={cart.id}
+                randomNumber = {randomNumber}
+                 clearCart = {clearCart}
 
-                    />
-                </div>
+                />
+            </div>
         </div>
     );
 };

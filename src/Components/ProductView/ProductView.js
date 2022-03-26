@@ -1,9 +1,8 @@
 import React from 'react';
 import "./ProductView.css";
 import { Stack, Button} from 'react-bootstrap';
-import Btn from '../Button/Btn';
 
-const ProductView = ({product, randomNumber}) => {
+const ProductView = ({product, randomNumber, clearCart}) => {
     return (
         <div className='right-card'>
         <h2> You Are Selected </h2>
@@ -21,9 +20,8 @@ const ProductView = ({product, randomNumber}) => {
            
              <Stack gap={3} className="col-md-5 mx-auto">
                 <Button variant="secondary" onClick={randomNumber}>Choose 1 Book</Button>
-                <Button variant="outline-secondary">Choose Again</Button>
+                <Button variant="outline-secondary" onClick = {clearCart}>Choose Again</Button>
             </Stack>
-            {/* <Btn randomNumber = {randomNumber} /> */}
             
         </div>
     );
